@@ -1,7 +1,7 @@
 import React,{useEffect} from 'react'
 import { HttpClient } from './httpClient';
 
-const client = new HttpClient("http://localhost:3000/api");
+const client = new HttpClient("https://trading-silk.vercel.app/api");
 export interface IProduct{
     name: string,
     categoryId:string;
